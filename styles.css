@@ -1,1 +1,70 @@
-/*  your css code here. If applicable */
+/* Main container styling */
+.container {
+  width: 1100px;       /* Fixed width requirement */
+  margin: 0 auto;      /* Centers the container on the page */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;  /* Light background to distinguish content area */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Heading style */
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Image container styling */
+.imageContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Make sure the featured image scales responsively */
+.imageContainer img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc; 
+  border-radius: 4px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Column width classes */
+.column-200 {
+  width: 200px;
+  vertical-align: top;
+}
+
+.column-600 {
+  width: 600px;
+  vertical-align: top;
+}
+
+/* Cell styling */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* Images within table columns */
+td img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;  /* Centers images in their column */
+}
+
+/* Paragraph text styling in the middle column */
+td p {
+  line-height: 1.5;
+  color: #333;
+  margin: 0; /* Remove default extra spacing below paragraphs */
+}
